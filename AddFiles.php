@@ -235,10 +235,10 @@ if (isset($_POST["submit_Users"])) {
 
 // Connecting to the database - Follows
 if (isset($_POST["submit_Follows"])) {
-    $server = "tcp:techniondbcourse01.database.windows.net,1433";
-    $user = "van0ari";
-    $pass = "Qwerty12!";
-    $database = "van0ari";
+    $server = "";
+    $user = "";
+    $pass = "";
+    $database = "";
     $c = array("Database" => $database, "UID" => $user, "PWD" => $pass);
     sqlsrv_configure('WarningsReturnAsErrors', 0);
     $conn = sqlsrv_connect($server, $c);
