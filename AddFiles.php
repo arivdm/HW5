@@ -186,10 +186,10 @@
     // Connecting to the database - Users
 
 if (isset($_POST["submit_Users"])) {
-    $server = "tcp:techniondbcourse01.database.windows.net,1433";
-    $user = "van0ari";
-    $pass = "Qwerty12!";
-    $database = "van0ari";
+    $server = "";
+    $user = "";
+    $pass = "";
+    $database = "";
     $c = array("Database" => $database, "UID" => $user, "PWD" => $pass);
     sqlsrv_configure('WarningsReturnAsErrors', 0);
     $conn = sqlsrv_connect($server, $c);
@@ -284,10 +284,10 @@ if (isset($_POST["submit_Follows"])) {
 
 // Connecting to the database - Tweets
 if (isset($_POST["submit_Tweets"])) {
-    $server = "tcp:techniondbcourse01.database.windows.net,1433";
-    $user = "van0ari";
-    $pass = "Qwerty12!";
-    $database = "van0ari";
+    $server = "";
+    $user = "";
+    $pass = "";
+    $database = "";
     $c = array("Database" => $database, "UID" => $user, "PWD" => $pass);
     sqlsrv_configure('WarningsReturnAsErrors', 0);
     $conn = sqlsrv_connect($server, $c);
@@ -335,10 +335,10 @@ if (isset($_POST["submit_Tweets"])) {
 
 // Connecting to the database - Tweets
 if (isset($_POST["submit_Words"])) {
-    $server = "tcp:techniondbcourse01.database.windows.net,1433";
-    $user = "van0ari";
-    $pass = "Qwerty12!";
-    $database = "van0ari";
+    $server = "";
+    $user = "";
+    $pass = "";
+    $database = "";
     $c = array("Database" => $database, "UID" => $user, "PWD" => $pass);
     sqlsrv_configure('WarningsReturnAsErrors', 0);
     $conn = sqlsrv_connect($server, $c);
